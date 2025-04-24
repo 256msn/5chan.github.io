@@ -1,0 +1,82 @@
+body {
+  font-family: Tahoma, sans-serif;
+  background: #f0e0d6;
+  color: #800000;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background: #fff;
+  border-bottom: 1px solid #aaa;
+  padding: 20px;
+  text-align: center;
+}
+
+#logo {
+  height: 60px;
+}
+
+.box {
+  margin: 10px auto;
+  padding: 20px;
+  max-width: 900px;
+  border: 1px solid #aaa;
+}
+
+.red-box {
+  background: #a00;
+  color: #fff;
+  border-color: #800;
+}
+
+.red-box a {
+  color: #ffd;
+}
+
+.red-box h2 {
+  margin-top: 0;
+  color: #fff;
+}
+
+#boards {
+  max-width: 1000px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #f0e0d6;
+  padding: 10px;
+  font-size: 20px;
+  text-align: left;
+  border-bottom: 2px solid #800000;
+}
+
+td.boardlist {
+  vertical-align: top;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.boardlist h3 {
+  margin-top: 0;
+  font-size: 16px;
+  color: #800000;
+}
+
+.boardlist a {
+  color: #0000ee;
+  text-decoration: none;
+}
+
+.boardlist a:hover {
+  text-decoration: underline;
+}
